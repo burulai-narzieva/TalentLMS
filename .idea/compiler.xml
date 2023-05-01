@@ -10,5 +10,8 @@
         <module name="Winter2022TAF" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TalentLMSWinter2022" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
