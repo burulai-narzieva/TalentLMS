@@ -27,8 +27,4 @@ public class LoginPage extends BasePage{
         return this;
     }
 
-//    public LoginPage closePage(){
-//        Driver.closeDriver();
-//        return this;
-//    }
 }

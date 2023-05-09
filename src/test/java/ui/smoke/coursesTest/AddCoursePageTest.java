@@ -19,15 +19,9 @@ import ui.BaseUiTest;
 
 
 public class AddCoursePageTest extends BaseUiTest{
-    CoursesHomePage coursesHomePage = new CoursesHomePage();
-    AddCoursePage addCoursePage = new AddCoursePage();
-    LoginPage loginPage = new LoginPage();
-
 
     @BeforeClass
     public void openAndLogin() {
-        loginPage.openPage();
-        loginPage.authorization();
         coursesHomePage.openCoursesPage();
     }
 

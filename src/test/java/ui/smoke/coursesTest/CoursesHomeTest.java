@@ -7,6 +7,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import ui.BaseUiTest;
 
 
 /**
@@ -14,14 +15,10 @@ import org.testng.annotations.Test;
  */
 
 
-public class CoursesHomeTest {
-    CoursesHomePage coursesHomePage = new CoursesHomePage();
-    LoginPage loginPage = new LoginPage();
-
+public class CoursesHomeTest extends BaseUiTest {
 
     @BeforeClass
     public void openAndLogin() {
-        loginPage.openPage().authorization();
         coursesHomePage.openCoursesPage();
     }
 
